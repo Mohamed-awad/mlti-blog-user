@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="/css/main.css" />
+  
+  <title>Udacity Project User Blog</title>
+</head>
+
+<body>
+  <a href="/" class="main-title">
+    Project User Blog
+  </a>
+
+  <div class="login-area">
+    {% if user %}
+      <span class="user">{{user.name}}</span> |
+      <a class="login-link" href="/logout">logout</a>
+    {% else %}
+      <a class="login-link" href="/login">login</a>
+      |
+      <a class="login-link" href="/signup">signup</a>
+    {% endif %}
+  </div>
+
+  <div id="content">
+  {% block content %}
+  {% endblock %}
+  </div>
+</body>
+
+</html>
+
