@@ -1,6 +1,13 @@
 # Multi-User-Blog
 
-developing this project to make user blog that provide :
+For this project you will build on top of the blog you created in the Intro to Backend course in udacity full-stack web developer nanodegree .
+
+# Why this project?
+
+This project will be your first project in your Nanodegree where you have to design and implement a significant portion of the project.
+
+# developing this project to make user blog that provide :
+
 * upload 
 * edit 
 * delete posts 
@@ -26,4 +33,4 @@ you need to install :-
 
 3- Open your browser on localhost:8080 
 
-# That`s it
+# That's it
