@@ -29,7 +29,7 @@ you need to install :-
 
 1- Open the directory of the project in terminal
 
-2- Run this command dev_appserver.py .
+2- Run this command ```dev_appserver.py``` .
 
 3- Open your browser on localhost:8080 
 
